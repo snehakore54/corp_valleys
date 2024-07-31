@@ -1,0 +1,104 @@
+.property-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    margin: 16px;
+    padding: 16px;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 300px; /* Adjust based on design */
+    text-align: center;
+  }
+  
+.property-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .property-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+  }
+  
+  .property-item h3 {
+    font-size: 1.5rem;
+    margin: 0 0 8px;
+    color: #333;
+  }
+  
+  .property-item p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .property-item .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f45b69;
+  }
+  
+  .property-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .property-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .property-item {
+      max-width: 100%;
+      margin: 8px 0;
+      padding: 12px;
+    }
+  
+    .property-item h3 {
+      font-size: 1.25rem;
+    }
+  
+    .property-item p {
+      font-size: 0.875rem;
+    }
+  
+    .property-item .price {
+      font-size: 1.125rem;
+    }
+  
+    .property-item button {
+      font-size: 0.875rem;
+      padding: 8px 16px;
+    }
+  }
+  
+.property-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    gap: 16px; /* Space between cards */
+    justify-content: center; /* Center align the cards horizontally */
+    padding: 16px;
+}
+  
+  /* Optional: Adjust card styling if needed */
+.property-item {
+    flex: 1 1 300px;
+    max-width: 300px; 
+    margin: 0; 
+}
+
+/*.property-item {
+    flex: 1 1 calc(33.333% - 16px);
+    max-width: calc(33.333% - 16px); 
+    margin: 0;
+  }*/
+  

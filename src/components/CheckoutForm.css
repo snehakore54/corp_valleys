@@ -1,0 +1,54 @@
+.checkout-form {
+    background-color: #fff; /* White background for clarity */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Spacing around content */
+    margin: 20px 0; /* Margin to separate from other content */
+    max-width: 500px; /* Maximum width for better readability */
+    margin-left: auto; /* Center align horizontally */
+    margin-right: auto; /* Center align horizontally */
+  }
+  
+  .checkout-form input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 1rem; /* Font size for input text */
+  }
+  
+  .checkout-form button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width for the button */
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .checkout-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .checkout-form div {
+    margin-top: 20px; /* Space above the total cost */
+    font-size: 1.2rem; /* Slightly larger font size for total cost */
+    text-align: center; /* Center align text */
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-form {
+      padding: 15px; /* Reduced padding on smaller screens */
+      margin: 15px 0; /* Adjust margin on smaller screens */
+    }
+  
+    .checkout-form input,
+    .checkout-form button {
+      width: 100%; /* Ensure full width on smaller screens */
+    }
+  }
+  

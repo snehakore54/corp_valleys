@@ -1,0 +1,23 @@
+header {
+    background-color: #f8f9fa; /* Light gray background for a neutral look */
+    color: #333; /* Dark gray text color for good contrast */
+    padding: 20px; /* Spacing around the content */
+    text-align: center; /* Center align text */
+    border-bottom: 1px solid #dee2e6; /* Subtle border at the bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  header h1 {
+    font-size: 2rem; /* Adjusted font size for better proportion */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Font family */
+    font-weight: 600; /* Slightly lighter weight for a more refined look */
+    letter-spacing: 0.5px; /* Slightly spaced letters */
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem; /* Smaller font size on smaller screens */
+    }
+  }
+  

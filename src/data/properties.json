@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Cozy Cottage",
+      "description": "A charming cottage in the countryside with modern amenities.",
+      "price": 2200,
+      "image": "https://i.pinimg.com/originals/5e/7e/02/5e7e0213077d561bb92381e85ed4d1ae.jpg",
+      "location": "Countryside",
+      "bedrooms": 2,
+      "amenities": ["WiFi", "Parking", "Air Conditioning"]
+    },
+    {
+      "id": 2,
+      "title": "Luxury Apartment",
+      "description": "A stylish apartment in the city center with a stunning view.",
+      "price": 2500,
+      "image": "images/property2.jpg",
+      "location": "City Center",
+      "bedrooms": 3,
+      "amenities": ["WiFi", "Gym", "Pool"]
+    },
+    {
+      "id": 3,
+      "title": "Beachfront Villa",
+      "description": "A beautiful villa right on the beach with direct ocean access.",
+      "price": 3500,
+      "image": "images/property3.jpg",
+      "location": "Beachfront",
+      "bedrooms": 4,
+      "amenities": ["WiFi", "Pool", "Direct Beach Access"]
+    },
+    {
+        "id": 4,
+        "title": "Sunny Villa",
+        "description": "A luxurious villa with a private pool and stunning ocean views.",
+        "price": 3500,
+        "image": "https://i.pinimg.com/originals/56/60/54/56605466cc7f83a2127d87d4b8862f75.jpg",
+        "location": "Coastal Region",
+        "bedrooms": 4,
+        "amenities": ["WiFi", "Gym", "Pool"]
+      },
+      {
+        "id": 5,
+        "title": "Urban Loft",
+        "description": "A stylish loft in the heart of the city with modern decor and great nightlife access.",
+        "price": 2500,
+        "image": "https://i.pinimg.com/originals/34/70/ac/3470ac4a4965f5d3441bcc5f0867ae56.jpg",
+        "location": "City Center",
+        "bedrooms": 3,
+        "amenities": ["Gym", "WiFi", "Public Transit"]
+      },
+      {
+        "id": 6,
+        "title": "Mountain Retreat",
+        "description": "A serene retreat nestled in the mountains with breathtaking views and hiking trails.",
+        "price": 1500,
+        "image": "https://tse2.mm.bing.net/th?id=OIP.vLcPGHi5j_YyhmYVNh1BnwHaF7&pid=Api&P=0&h=180",
+        "location": "Mountain Region",
+        "bedrooms": 1,
+        "amenities": ["Hot Tub", "WiFi", "Hiking Trails"]
+      }
+  ]
+  

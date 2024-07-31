@@ -1,0 +1,185 @@
+.cart-item {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Subtle border for separation */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px; /* Spacing inside the item */
+    margin-bottom: 15px; /* Space between items */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Center align vertically */
+  }
+  
+  .cart-item h4 {
+    font-size: 1.2rem; /* Font size for the title */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark gray color for text */
+  }
+  
+  .cart-item p {
+    font-size: 1rem; /* Font size for the price */
+    margin: 5px 0; /* Space above and below the price */
+    color: #666; /* Slightly lighter gray color for text */
+  }
+  
+  .cart-item input {
+    width: 60px; /* Fixed width for quantity input */
+    padding: 8px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size for input text */
+    text-align: center; /* Center align text */
+    margin-right: 10px; /* Space between input and button */
+  }
+  
+  .cart-item button {
+    background-color: #e74c3c; /* Red background for remove button */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 8px 12px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .cart-item button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .cart-item {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .cart-item input {
+      width: 100%; /* Full width input on smaller screens */
+      margin-bottom: 10px; /* Space below input */
+    }
+  
+    .cart-item button {
+      width: 100%; /* Full width button on smaller screens */
+    }
+  }
+
+  .cart {
+    background-color: #fff; /* White background for the cart container */
+    border: 1px solid #ddd; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px; /* Spacing inside the cart container */
+    margin: 20px auto; /* Center the container with margin */
+    max-width: 900px; /* Maximum width for larger screens */
+  }
+  
+  .cart-item {
+    border-bottom: 1px solid #ddd; /* Separator line between items */
+    padding-bottom: 15px; /* Space below each item */
+    margin-bottom: 15px; /* Space between items */
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none; /* Remove the bottom border from the last item */
+  }
+  
+  .cart-summary {
+    background-color: #f9f9f9; /* Light background for summary */
+    border: 1px solid #ddd; /* Light border for summary */
+    border-radius: 8px; /* Rounded corners for summary */
+    padding: 15px; /* Spacing inside the summary */
+    margin-top: 20px; /* Space above the summary */
+    text-align: right; /* Right align text for summary */
+  }
+  
+  .cart-summary h3 {
+    margin: 0 0 10px 0; /* Remove top margin, add bottom margin */
+    font-size: 1.2rem; /* Font size for the summary title */
+    color: #333; /* Dark gray color for text */
+  }
+  
+  .cart-summary p {
+    font-size: 1rem; /* Font size for summary text */
+    margin: 5px 0; /* Space above and below each line */
+    color: #666; /* Slightly lighter gray color for text */
+  }
+  
+  @media (max-width: 768px) {
+    .cart {
+      padding: 15px; /* Reduce padding on smaller screens */
+      margin: 10px; /* Reduce margin on smaller screens */
+    }
+  
+    .cart-summary {
+      text-align: left; /* Align text to the left on smaller screens */
+    }
+  }
+
+
+/* Container for the property list */
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between property items */
+    padding: 20px; /* Space inside the container */
+  }
+  
+  /* Container for each property item */
+  .property-item {
+    background-color: #fff; /* White background for property item */
+    border: 1px solid #ddd; /* Light border around property item */
+    border-radius: 8px; /* Rounded corners for property item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden; /* Ensures child elements do not overflow */
+    width: calc(33.333% - 20px); /* Responsive width with spacing */
+    max-width: 350px; /* Maximum width for each item */
+    box-sizing: border-box; /* Includes border and padding in the width calculation */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 1024px) {
+    .property-item {
+      width: calc(50% - 20px); /* 2 items per row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .property-item {
+      width: 100%; /* 1 item per row on small screens */
+    }
+  }
+  
+  /* Styles for the property images */
+  .property-item img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container while preserving aspect ratio */
+  }
+  
+  /* Styles for the property item content */
+  .property-item h3 {
+    font-size: 1.2rem; /* Font size for the title */
+    margin: 10px 0; /* Margin above and below the title */
+  }
+  
+  .property-item p {
+    font-size: 1rem; /* Font size for the description and price */
+    margin: 5px 0; /* Margin above and below the text */
+    color: #333; /* Dark gray text color */
+  }
+  
+  .property-item button {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    color: #fff; /* White text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for the button text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .property-item button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  

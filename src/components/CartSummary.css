@@ -1,0 +1,28 @@
+.cart-summary {
+    background-color: #fff; /* White background for clarity */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Spacing around content */
+    margin: 20px 0; /* Margin to separate from other content */
+    text-align: center; /* Center align text */
+  }
+  
+  .cart-summary h3 {
+    font-size: 1.5rem; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #333; /* Dark gray color for the text */
+  }
+  
+  .cart-summary p {
+    font-size: 1rem; /* Font size for paragraph text */
+    margin: 5px 0; /* Space between paragraphs */
+    color: #666; /* Slightly lighter gray color for text */
+  }
+  
+  @media (max-width: 768px) {
+    .cart-summary {
+      padding: 15px; /* Reduced padding on smaller screens */
+      margin: 15px 0; /* Adjust margin on smaller screens */
+    }
+  }
+  

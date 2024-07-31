@@ -1,0 +1,46 @@
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between form elements */
+    padding: 16px;
+    border: 1px solid #ddd; /* Light border for the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .filter-bar input {
+    flex: 1; /* Allow inputs to grow and shrink */
+    min-width: 200px; /* Minimum width for input fields */
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size for inputs */
+  }
+  
+  .filter-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for button */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .filter-bar button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .filter-bar {
+      flex-direction: column; /* Stack inputs vertically on small screens */
+      align-items: stretch; /* Ensure inputs stretch to full width */
+    }
+  
+    .filter-bar input {
+      min-width: 100%; /* Full width for input fields */
+    }
+  }
+  
